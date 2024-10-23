@@ -1,7 +1,7 @@
 const { WebSocket } = require('ws');
 
 const wsClientFactory = (id) => {
-    const ws = new WebSocket('ws://localhost:2953');
+    const ws = new WebSocket('ws://localhost:3658');
 
     ws.on('error', console.error);
 
